@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "type": "video",
+            "poster": "images/thumbs/app/app_01_poster.png",
+            "src": "video/app/app_01_gameplay.mp4",
+            "mime": "video/mp4",
+            "title": "App工具",
+            "meta":  "儲色倉庫"
+        },
+        {
+            "type": "video",
+            "poster": "images/thumbs/app/app_02_poster.png",
+            "src": "video/app/app_02_gameplay.mp4",
+            "mime": "video/mp4",
+            "title": "App工具",
+            "meta":  "錢錢去哪兒"
+        },
+        {
+            "type": "video",
+            "poster": "images/thumbs/app/app_02_poster.png",
+            "src": "video/app/app_03_gameplay.mp4",
+            "mime": "video/mp4",
+            "title": "App工具",
+            "meta":  "多彩視覺"
+        },
+        {
+            "type": "video",
+            "poster": "images/thumbs/app/app_04_poster.png",
+            "src": "video/app/app_04_gameplay.mp4",
+            "mime": "video/mp4",
+            "title": "App工具",
+            "meta":  "今日規劃餐"
+        }
+    ]
+}

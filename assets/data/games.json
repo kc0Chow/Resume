@@ -1,0 +1,163 @@
+{
+  "groups": [
+    {
+      "title": "動作 / 敏捷",
+      "items": [
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/action_01_poster.jpg",
+          "src": "video/game/action_01_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "動作類遊戲",
+          "meta":  "功夫小娘"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/reflex_01_poster.jpg",
+          "src": "video/game/reflex_01_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "敏捷類遊戲",
+          "meta":  "保护总统大人"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/reflex_02_poster.jpg",
+          "src": "video/game/reflex_02_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "敏捷類遊戲",
+          "meta":  "旋轉閃躲"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/reflex_03_poster.jpg",
+          "src": "video/game/reflex_03_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "敏捷類遊戲",
+          "meta":  "逃走魔法兔"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/reflex_04_poster.jpg",
+          "src": "video/game/reflex_04_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "敏捷類遊戲",
+          "meta":  "幾何跳躍"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/reflex_05_poster.jpg",
+          "src": "video/game/reflex_05_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "敏捷類遊戲",
+          "meta":  "怪兽农场"
+        }
+      ]
+    },
+    {
+      "title": "益智 / 三消",
+      "items": [
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/puzzle_01_poster.jpg",
+          "src": "video/game/puzzle_01_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "益智類遊戲",
+          "meta":  "方块倒计时"
+        },
+  {
+          "type": "video",
+          "poster": "images/thumbs/game/puzzle_02_poster.jpg",
+          "src": "video/game/puzzle_02_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "益智類遊戲",
+          "meta":  "磁力連線"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/puzzle_03_poster.jpg",
+          "src": "video/game/puzzle_03_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "益智類遊戲",
+          "meta":  "能量超載"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/puzzle_04_poster.jpg",
+          "src": "video/game/puzzle_04_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "益智類遊戲",
+          "meta":  "Hexanova"
+        },
+                {
+          "type": "video",
+          "poster": "images/thumbs/game/match_01_poster.jpg",
+          "src": "video/game/match_01_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "三消類遊戲",
+          "meta":  "Hexanova"
+        }
+      ]
+    },
+        {
+      "title": "其他類型",
+      "items": [
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/physics_01_poster.jpg",
+          "src": "video/game/physics_01_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "物理類遊戲",
+          "meta":  "文具幻想"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/physics_02_poster.jpg",
+          "src": "video/game/physics_02_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "物理類遊戲",
+          "meta":  "幾何彈射"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/strategy_01_poster.jpg",
+          "src": "video/game/strategy_01_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "策略類遊戲",
+          "meta":  "法庭風雲"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/shoot_01_poster.jpg",
+          "src": "video/game/shoot_01_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "射擊類遊戲",
+          "meta":  "護牙作戰"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/tile_01_poster.jpg",
+          "src": "video/game/tile_01_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "Tile類遊戲",
+          "meta":  "把車停好"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/tile_02_poster.jpg",
+          "src": "video/game/tile_02_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "Tile類遊戲 - 2048",
+          "meta":  "甜蜜果合屋"
+        },
+        {
+          "type": "video",
+          "poster": "images/thumbs/game/tile_03_poster.jpg",
+          "src": "video/game/tile_03_gameplay.mp4",
+          "mime": "video/mp4",
+          "title": "Tile類遊戲",
+          "meta":  "迷宮救援"
+        }
+      ]
+    }
+  ]
+}
