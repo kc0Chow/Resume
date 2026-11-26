@@ -105,9 +105,40 @@
 										<li>實作獨立 Bundle 模組、動態魚群路徑及捕捉判定。</li>
 										<li>與後端協作，實現遊戲狀態同步、通訊整合及異常狀態處理。</li>
 									</ul>
-									<div id="goldenfish-gallery" hidden>
-										<p class="block-meta">以下為企劃階段遊戲畫面示意，非最終實機畫面。</p>
-										<div class="block-grid" id="goldenfish-grid"></div>
+									<div id="goldenfish-gallery">
+										<p class="block-meta">以下為企劃階段遊戲畫面示意，非最終實機畫面。點擊圖片可查看原圖。</p>
+										<div class="block-grid" id="goldenfish-grid">
+											<div class="block-card">
+												<a href="images/goldenfish/intro.jpg" target="_blank" rel="noopener noreferrer">
+													<img class="block-slot-thumb" style="height: auto; object-fit: contain;" src="images/goldenfish/intro.jpg" alt="黃金魚降臨（企劃示意）" />
+												</a>
+												<div class="block-body"><h3 class="block-title">黃金魚降臨</h3></div>
+											</div>
+											<div class="block-card">
+												<a href="images/goldenfish/play.jpg" target="_blank" rel="noopener noreferrer">
+													<img class="block-slot-thumb" style="height: auto; object-fit: contain;" src="images/goldenfish/play.jpg" alt="進入小遊戲（企劃示意）" />
+												</a>
+												<div class="block-body"><h3 class="block-title">進入小遊戲</h3></div>
+											</div>
+											<div class="block-card">
+												<a href="images/goldenfish/catch.jpg" target="_blank" rel="noopener noreferrer">
+													<img class="block-slot-thumb" style="height: auto; object-fit: contain;" src="images/goldenfish/catch.jpg" alt="撈魚玩法（企劃示意）" />
+												</a>
+												<div class="block-body"><h3 class="block-title">撈魚玩法</h3></div>
+											</div>
+											<div class="block-card">
+												<a href="images/goldenfish/reward.jpg" target="_blank" rel="noopener noreferrer">
+													<img class="block-slot-thumb" style="height: auto; object-fit: contain;" src="images/goldenfish/reward.jpg" alt="報獎演出（企劃示意）" />
+												</a>
+												<div class="block-body"><h3 class="block-title">報獎演出</h3></div>
+											</div>
+											<div class="block-card">
+												<a href="images/goldenfish/outro.jpg" target="_blank" rel="noopener noreferrer">
+													<img class="block-slot-thumb" style="height: auto; object-fit: contain;" src="images/goldenfish/outro.jpg" alt="黃金魚撤離（企劃示意）" />
+												</a>
+												<div class="block-body"><h3 class="block-title">黃金魚撤離</h3></div>
+											</div>
+										</div>
 									</div>
 								</section>
 								<hr />
@@ -499,45 +530,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/render-items.js"></script>
-			<script>
-				// Show only available concept images; the gallery remains hidden until assets are present.
-				(function () {
-					var entries = [
-						['intro.jpg', '黃金魚降臨'],
-						['play.jpg', '進入小遊戲'],
-						['catch.jpg', '撈魚玩法'],
-						['reward.jpg', '報獎演出'],
-						['outro.jpg', '黃金魚撤離']
-					];
-					var gallery = document.getElementById('goldenfish-gallery');
-					var grid = document.getElementById('goldenfish-grid');
-					Promise.all(entries.map(function (entry) {
-						return new Promise(function (resolve) {
-							var img = new Image();
-							img.className = 'block-slot-thumb';
-							img.alt = entry[1] + '（企劃示意）';
-							img.onload = function () {
-								var card = document.createElement('div');
-								card.className = 'block-card';
-								var body = document.createElement('div');
-								body.className = 'block-body';
-								var title = document.createElement('h3');
-								title.className = 'block-title';
-								title.textContent = entry[1];
-								body.appendChild(title);
-								card.appendChild(img);
-								card.appendChild(body);
-								resolve(card);
-							};
-							img.onerror = function () { resolve(null); };
-							img.src = 'images/goldenfish/' + entry[0];
-						});
-					})).then(function (cards) {
-						cards.filter(Boolean).forEach(function (card) { grid.appendChild(card); });
-						if (grid.children.length) gallery.hidden = false;
-					});
-				})();
-			</script>
 			<script>
 				renderGroupedSection({
 				rootId: 'game-root',
